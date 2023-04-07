@@ -1,0 +1,160 @@
+p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding-right: 10px;
+    }
+    
+    body {
+     
+        background-color: whitesmoke;
+        margin: auto;
+        padding: 6em;
+    
+    }
+    
+    h1{ 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+        color: cadetblue;
+        font-size: 3em;
+        text-align: left;
+    
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: lighter;
+        color: rgb(0, 0, 0);    
+        font-size: 1.5em;
+        text-align: left;
+    
+    }
+    #ImageSize img{
+            width: 50%;
+            padding-top: 2.5em;
+           }
+    
+    .topPart{
+    
+    display: grid;
+    grid-template-columns: 55% 40%  ;
+    grid-template-rows: 100px;
+    grid-gap: 10% ;
+    padding: 2em;
+    background-image: url(Images/bcg.jpg); 
+    
+    }
+    
+    .Wrapper{
+        display: grid;
+        grid-template-columns: 40% 50% ;
+        grid-template-rows: 530px;
+        grid-gap: 8em;
+       padding: 2em;
+    
+    
+        background-image: url(Images/bckg.jpeg);
+        margin: auto;
+        padding-left: 6em;
+        display : grid;
+    }
+    div li{
+        color: black;
+    }
+    .Wrapper h2{
+        color: cadetblue;
+    }
+    .Wrapper h1{
+        color: darkcyan;
+    }
+    
+    
+    nav ul{
+    
+        list-style-type: none;
+        
+    }   
+    
+    
+    .top img{
+        
+        width: 25%;
+        float: left;
+    }
+    
+    
+     
+    .twocol{
+        background-image: url(Images/bcg.jpg);
+    margin: 0;
+    vertical-align: baseline;
+    border: 0;
+    
+    display: grid;
+     grid-template-columns: 40% 50% ;
+     grid-template-rows: 530px;
+     grid-gap: 2em;
+    padding: 3em;
+    margin-bottom: 1em;
+    
+    
+    }
+    
+    .twocol p{
+        color: darkgray;
+    }
+    .twocol h1{
+        padding-top: 1em;
+        font-size: 70pt;
+    }
+    
+    #Centre{
+        margin-top: 2em;
+        text-align: center;
+    }
+    
+    
+    .Bottom-section{         
+    
+    display: grid;
+    grid-template-columns: 33.1% 34% 33.5%;
+    grid-template-rows: 105%;
+    grid-gap: 0px;
+    background-image: url(Images/bcg.jpg);
+    
+    }
+    
+    
+    
+    .Bottom-section h1{
+        font-size: 50pt;
+        background: none;
+        color: whitesmoke;
+        padding-left: 0.6em;
+    }
+    
+    
+    
+    .Bottom-section li{
+        display: list-item;
+        color: whitesmoke;
+        font-size: 25pt;
+    }
+    .Bottom-section Nav a{
+        padding: 0.5em;
+        font-size: 25pt;
+        color: whitesmoke;
+    }
+    li p{
+        font-size: 10pt;
+        color: black;
+    }
+    .space{
+        padding-top: 10em;
+    }
+    
+    
+    
+    
+    
+    
